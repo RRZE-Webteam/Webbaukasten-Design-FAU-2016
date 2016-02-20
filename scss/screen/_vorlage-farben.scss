@@ -1,0 +1,85 @@
+// Vorlage für Farbvarianten //
+
+h1, h2, h3, h4, h5, h6 {
+    color: $main;
+}
+
+a {
+    color: $main;
+    &:hover, &:focus, &:active {
+        color: $hover;
+    }
+}
+
+blockquote p {
+    color: $main;
+}
+
+input[type="submit"] {
+    background: $main;
+    &:hover, &:focus, &:active {
+        background: $hover;
+    }
+}
+
+#titel {
+    background: rgba(0, 0, 0, 0) radial-gradient(ellipse at center center , $lighter 0%, $main 100%) repeat scroll 0 0;;
+}
+
+#footer {
+    background: $main;
+}
+
+#inhaltsinfo, #footer #zusatzinfo {
+    h1, h2, h3, h4, h5, h6 {
+        color: $hover;
+    }
+}
+
+#hauptmenu li {
+    a:hover, a:focus, a:active {
+        color: $hover;
+    }
+}
+
+#bereichsmenu {
+    .infotext {
+        background: $main;
+        color: #fff;
+    }
+    .aktiv + .skip + .infotext {
+        background: $hover;
+        color: $lighter;
+    }
+    li {
+        
+        span.aktiv:hover, span.aktiv:focus, span.aktiv:active, 
+        a:hover, a:focus, a:active {
+            background: $main;
+        }
+    }
+    #hauptnavigation li.on {
+        background: $main;
+        a.aktiv, span.aktiv {
+            background: $hover;
+        }
+        ul li {
+            border-top-color: $lighter;
+        }
+    }
+}
+
+@media screen and (min-width: 720px) {
+    #titel {
+        background: url($siegel) no-repeat scroll 95% 20%, rgba(0, 0, 0, 0) radial-gradient(ellipse at center center , $lighter 0%, $main 100%) repeat scroll 0 0;;
+    }
+}
+@media screen and (min-width: 1024px) {
+
+    header {
+        background-image: url($bg-header);
+    }
+    #titel {
+        background: url($siegel) no-repeat scroll 95% 20%, rgba(0, 0, 0, 0) radial-gradient(ellipse at center center , $lighter 0%, $main 70%) repeat scroll 0 0;;
+    }
+}

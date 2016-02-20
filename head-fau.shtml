@@ -1,0 +1,23 @@
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+	<meta name="Language" content="Deutsch">
+	<meta name="generator" content="Web-Baukasten der Friedrich-Alexander-Universit&auml;t (03/2013)">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0">	
+        <link rel="copyright" href="/impressum.shtml" title="Impressum">
+        <link rel="start" href="/" title="Startseite">	
+	<link rel="section" href="#content" media="handheld" title="Zum Inhalt">
+	<link rel="section" href="#menu" media="handheld" title="Zur Navigation">
+	<link rel="section" href="#seite" media="handheld" title="Zum Seitenanfang">
+    	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    
+	<link href="/css/fau/layout.css" type="text/css" rel="stylesheet" title="default"> 	
+	<link href="/css/tools.css" type="text/css" rel="stylesheet" title="default">
+	<!--[if lte IE 7]>
+		<link href="/css/d7/patches/patch.css" rel="stylesheet" type="text/css">
+	<![endif]-->
+	
+	<script src="/js/jquery-1.10.2.min.js"></script>
+	<script src="/css/fau/js/scripts.js" type="text/javascript"></script>
+
+        <link href="/vkdaten/tools/kalender/style.css" type="text/css" rel="stylesheet">
+        <link href="/vkdaten/tools/kalender/hint.css" type="text/css" rel="stylesheet">
+        <link href="/vkdaten/tools/kalender/hide_weekend.css" type="text/css" rel="stylesheet">

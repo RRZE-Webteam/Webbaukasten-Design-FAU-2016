@@ -1,0 +1,34 @@
+Phil-Fak
+--------
+$dark-brown: #a36b0d;
+$medium-brown: #ea9a13;
+$hover: #553500;
+$hover-light: #6e4500;
+
+Med-Fak
+--------
+$dark-petrol: #0381a2;
+$medium-petrol: #04bded;
+$hover: #014e63;
+$hover-light: #01627c;
+
+Nat-Fak
+--------
+$dark-green: #048767;
+$medium-green: #06d1a0; 
+$hover: #00533f;
+$hover-light: #006d52;
+
+RW-Fak
+--------
+$dark-red: #8d1429;
+$medium-red: #d01e3c;
+$hover: #42000c;
+$hover-light: #5c0011;
+
+Tech-Fak
+--------
+$dark-grey: #6e7881;
+$medium-grey: #969ea5;
+$hover: #3b4956;
+$hover-light: #455665;

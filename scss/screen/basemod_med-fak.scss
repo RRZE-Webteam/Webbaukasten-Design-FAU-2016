@@ -1,0 +1,21 @@
+/**
+ * Projekt Vorlagenkatalog 
+ *
+ * Design "FAU 2016" – Farbvariante MedFak (petrol)
+ *
+ * @copyright       Copyright RRZE-Webteam
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.0
+ * @lastmodified    02/2016
+ */
+
+$main: #0381a2;
+$lighter: #04bded;
+$hover: #014e63;
+$hover-lighter: #01627c;
+$siegel: '../img/siegel-medfak.png';
+$bg-header: '../img/bg-header-med.png';
+
+@import "vorlage-farben";

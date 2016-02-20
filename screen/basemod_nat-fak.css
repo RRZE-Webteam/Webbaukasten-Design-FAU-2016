@@ -1,0 +1,65 @@
+/**
+ * Projekt Vorlagenkatalog 
+ *
+ * Design "FAU 2016" – Farbvariante NatFak (grün)
+ *
+ * @copyright       Copyright RRZE-Webteam
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.0
+ * @lastmodified    02/2016
+ */
+h1, h2, h3, h4, h5, h6 {
+  color: #048767; }
+
+a {
+  color: #048767; }
+  a:hover, a:focus, a:active {
+    color: #00533f; }
+
+blockquote p {
+  color: #048767; }
+
+input[type="submit"] {
+  background: #048767; }
+  input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active {
+    background: #00533f; }
+
+#titel {
+  background: transparent radial-gradient(ellipse at center center, #06d1a0 0%, #048767 100%) repeat scroll 0 0; }
+
+#footer {
+  background: #048767; }
+
+#inhaltsinfo h1, #inhaltsinfo h2, #inhaltsinfo h3, #inhaltsinfo h4, #inhaltsinfo h5, #inhaltsinfo h6, #footer #zusatzinfo h1, #footer #zusatzinfo h2, #footer #zusatzinfo h3, #footer #zusatzinfo h4, #footer #zusatzinfo h5, #footer #zusatzinfo h6 {
+  color: #00533f; }
+
+#hauptmenu li a:hover, #hauptmenu li a:focus, #hauptmenu li a:active {
+  color: #00533f; }
+
+#bereichsmenu .infotext {
+  background: #048767;
+  color: #fff; }
+#bereichsmenu .aktiv + .skip + .infotext {
+  background: #00533f;
+  color: #06d1a0; }
+#bereichsmenu li span.aktiv:hover, #bereichsmenu li span.aktiv:focus, #bereichsmenu li span.aktiv:active,
+#bereichsmenu li a:hover, #bereichsmenu li a:focus, #bereichsmenu li a:active {
+  background: #048767; }
+#bereichsmenu #hauptnavigation li.on {
+  background: #048767; }
+  #bereichsmenu #hauptnavigation li.on a.aktiv, #bereichsmenu #hauptnavigation li.on span.aktiv {
+    background: #00533f; }
+  #bereichsmenu #hauptnavigation li.on ul li {
+    border-top-color: #06d1a0; }
+
+@media screen and (min-width: 720px) {
+  #titel {
+    background: url("../img/siegel-natfak.png") no-repeat scroll 95% 20%, transparent radial-gradient(ellipse at center center, #06d1a0 0%, #048767 100%) repeat scroll 0 0; } }
+@media screen and (min-width: 1024px) {
+  header {
+    background-image: url("../img/bg-header-nat.png"); }
+
+  #titel {
+    background: url("../img/siegel-natfak.png") no-repeat scroll 95% 20%, transparent radial-gradient(ellipse at center center, #06d1a0 0%, #048767 70%) repeat scroll 0 0; } }

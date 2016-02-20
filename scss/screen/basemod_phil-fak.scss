@@ -1,0 +1,21 @@
+/**
+ * Projekt Vorlagenkatalog 
+ *
+ * Design "FAU 2016" – Farbvariante PhilFak (braun)
+ *
+ * @copyright       Copyright RRZE-Webteam
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.0
+ * @lastmodified    02/2016
+ */
+
+$main: #a36b0d;
+$lighter: #ea9a13;
+$hover: #553500;
+$hover-lighter: #6e4500;
+$siegel: '../img/siegel-philfak.png';
+$bg-header: '../img/bg-header-phil.png';
+
+@import "vorlage-farben";

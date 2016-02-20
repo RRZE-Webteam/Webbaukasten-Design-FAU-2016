@@ -1,0 +1,32 @@
+/**
+ * Projekt Vorlagenkatalog 
+ *
+ * Design "FAU 2016" – Farbvariante TechFak (grau)
+ *
+ * @copyright       Copyright RRZE-Webteam
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.0
+ * @lastmodified    02/2016
+ */
+
+$main: #6e7881;
+$lighter: #969ea5;
+$hover: #3b4956;
+$hover-lighter: #455665;
+$siegel: '../img/siegel-techfak.png';
+$bg-header: '../img/bg-header-tech.png';
+
+@import "vorlage-farben";
+
+h1, h2, h3, h4, h5, h6 {
+    color: $hover;
+}
+
+a {
+    color: $hover;
+    &:hover, &:focus, &:active {
+        color: $main;
+    }
+}

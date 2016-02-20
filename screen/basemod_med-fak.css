@@ -1,0 +1,65 @@
+/**
+ * Projekt Vorlagenkatalog 
+ *
+ * Design "FAU 2016" – Farbvariante MedFak (petrol)
+ *
+ * @copyright       Copyright RRZE-Webteam
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.0
+ * @lastmodified    02/2016
+ */
+h1, h2, h3, h4, h5, h6 {
+  color: #0381a2; }
+
+a {
+  color: #0381a2; }
+  a:hover, a:focus, a:active {
+    color: #014e63; }
+
+blockquote p {
+  color: #0381a2; }
+
+input[type="submit"] {
+  background: #0381a2; }
+  input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active {
+    background: #014e63; }
+
+#titel {
+  background: transparent radial-gradient(ellipse at center center, #04bded 0%, #0381a2 100%) repeat scroll 0 0; }
+
+#footer {
+  background: #0381a2; }
+
+#inhaltsinfo h1, #inhaltsinfo h2, #inhaltsinfo h3, #inhaltsinfo h4, #inhaltsinfo h5, #inhaltsinfo h6, #footer #zusatzinfo h1, #footer #zusatzinfo h2, #footer #zusatzinfo h3, #footer #zusatzinfo h4, #footer #zusatzinfo h5, #footer #zusatzinfo h6 {
+  color: #014e63; }
+
+#hauptmenu li a:hover, #hauptmenu li a:focus, #hauptmenu li a:active {
+  color: #014e63; }
+
+#bereichsmenu .infotext {
+  background: #0381a2;
+  color: #fff; }
+#bereichsmenu .aktiv + .skip + .infotext {
+  background: #014e63;
+  color: #04bded; }
+#bereichsmenu li span.aktiv:hover, #bereichsmenu li span.aktiv:focus, #bereichsmenu li span.aktiv:active,
+#bereichsmenu li a:hover, #bereichsmenu li a:focus, #bereichsmenu li a:active {
+  background: #0381a2; }
+#bereichsmenu #hauptnavigation li.on {
+  background: #0381a2; }
+  #bereichsmenu #hauptnavigation li.on a.aktiv, #bereichsmenu #hauptnavigation li.on span.aktiv {
+    background: #014e63; }
+  #bereichsmenu #hauptnavigation li.on ul li {
+    border-top-color: #04bded; }
+
+@media screen and (min-width: 720px) {
+  #titel {
+    background: url("../img/siegel-medfak.png") no-repeat scroll 95% 20%, transparent radial-gradient(ellipse at center center, #04bded 0%, #0381a2 100%) repeat scroll 0 0; } }
+@media screen and (min-width: 1024px) {
+  header {
+    background-image: url("../img/bg-header-med.png"); }
+
+  #titel {
+    background: url("../img/siegel-medfak.png") no-repeat scroll 95% 20%, transparent radial-gradient(ellipse at center center, #04bded 0%, #0381a2 70%) repeat scroll 0 0; } }

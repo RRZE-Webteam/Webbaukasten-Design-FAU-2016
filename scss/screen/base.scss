@@ -1,0 +1,26 @@
+/**
+ * Projekt Vorlagenkatalog 
+ *
+ * Design "FAU 2016"
+ *
+ * Strukturdefinitionen & Farbinformationen zur dreispaltigen Variante, blau
+ *
+ * @copyright       Copyright RRZE-Webteam
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.0
+ * @lastmodified    02/2016
+ */
+
+@import "modules";
+@import "reset";
+
+@import "elements";
+@import "classes";
+@import "layout";
+
+// Mediaqueries 
+@import "small";
+@import "medium";
+@import "large";

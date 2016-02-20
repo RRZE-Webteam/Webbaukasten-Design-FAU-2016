@@ -1,0 +1,17 @@
+Zusätzlich notwendige Konfigurationen:
+--------------------------------------
+/ssi/kopf.shtml durch kopf-fau.shtml ersetzen
+(in /ssi hochkopieren, alte Datei umbenennen, kopf-fau.shtml in kopf.shtml umbenennen)
+
+Wenn Kalender-Plugin installiert: 
+in /vkdaten/tools/kalender/style.css Zeilen 1 und 2 auskommentieren oder löschen:
+body {
+    font-family: "Verdana", Arial, sans-serif; }
+
+Empfohlene Konfigurationen:
+---------------------------
+vorlagen.conf:
+BreadCrumbPartTAG   <img src="/css/fau/img/breadcrumbarrow.gif" height="9" width="20" alt=" " />
+oder
+BreadCrumbPartTAG   &ndash;/&ndash;
+(blaues Standard-GIF passt nicht)

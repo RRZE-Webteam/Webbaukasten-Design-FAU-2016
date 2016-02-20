@@ -1,0 +1,87 @@
+/*
+ * Mediaqueries: >360px / >480px
+ */
+
+@media screen and (min-width: 360px) {
+    #suche {
+        input {
+            font-size: 13px;
+        }
+        input[type="text"] {
+            width: 200px;
+            padding-left: 12px;
+            padding-right: 20px;
+            margin-right: -25px;
+
+        }
+        input[type="submit"] {
+            padding: 0 12px;
+            height: 30px;
+            border: none;
+        }
+    }   
+    #nav-toggle {
+        top: -27px;
+        background-color: $bg-grey;
+    }
+    #sidebar-toggle {
+        top: -29px;
+        background-color: $bg-grey;
+    }
+    #logo > a, #logo > p {
+        margin-right: 0;
+    }
+}    
+
+@media screen and (min-width: 480px) {
+
+    form {
+        border: 1px solid #dde5f0;
+        padding: 20px;
+    }
+    
+    label {
+        width: 240px;
+        margin-right: 20px;
+    }
+    
+    select, 
+    textarea, 
+    input[type="text"], 
+    input[type="password"], 
+    input[type="datetime"], 
+    input[type="datetime-local"], 
+    input[type="date"], 
+    input[type="month"], 
+    input[type="time"], 
+    input[type="week"], 
+    input[type="number"], 
+    input[type="email"], 
+    input[type="url"], 
+    input[type="search"], 
+    input[type="tel"], 
+    input[type="color"] {
+        width: 290px;
+    }
+
+    #logo {
+        img {
+            float: left;
+            margin-right: 20px;
+        }
+    }
+    
+    #titel {
+        padding-top: 20px;
+    }
+    
+    #breadcrumb  {
+        h2 {
+            display: table-cell;
+        }
+    }
+    
+    #hauptmenu li {
+        margin-right: 12px;
+    }
+}

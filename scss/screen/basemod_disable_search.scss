@@ -1,0 +1,25 @@
+/**
+ * Projekt Vorlagenkatalog 
+ *
+ * Design "FAU 2016" – Erweiterung: Suche ausgeblendet 
+ *
+ * @copyright       Copyright RRZE-Webteam
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.0
+ * @lastmodified    02/2016
+ */
+
+@import "modules";
+
+#suche {
+    display: none;
+}
+header {
+    margin-top: 0;
+}
+#nav-toggle {
+    top: 15px;
+    background: #fff;
+}

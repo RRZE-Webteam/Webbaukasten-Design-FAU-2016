@@ -1,0 +1,101 @@
+/*
+ * Allgemeine Klassen
+ */
+
+.clear {
+	clear: both;
+}
+.links, .left {
+	text-align: left;
+}
+.right, .rechts {
+	text-align: right;
+}
+.center {
+	text-align: center;
+}
+.oben, .top {
+	vertical-align: top;
+}
+.unten, .bottom {
+	vertical-align: bottom;
+}
+.mitte, .middle {
+	vertical-align: middle;
+}
+.rot {
+	color: $red;
+}
+/* Bilder */
+.bildlinks {
+	float:left;
+	margin: 10px 15px 10px 10px;
+}
+.bildrechts {
+	float: right;
+	margin: 10px 10px 10px 15px;
+}
+/* Boxen */
+.klein_box_rechts, .klein_box_links, .box_rechts, .box_links, .vollbox, .hinweis, .hinweis_rechts, .hinweis_wichtig, .baustelle {
+	margin: 10px;
+	border: 1px solid $border;
+	padding: 7px 10px;
+	p {
+		font-size: 13px;
+        margin: 0;
+        padding: 1px 0 3px 0;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-size: 16px;
+		padding: 0 0 3px 0;
+        margin: 0;
+	}
+}
+.klein_box_links, .klein_box_rechts {
+	width: 200px;
+}
+.klein_box_links, .box_links, .hinweis, .baustelle {
+	float: left;
+	margin-right: 15px;
+}
+.klein_box_rechts, .box_rechts, .hinweis_rechts {
+	float: right;
+	margin-left: 15px;
+}
+.box_rechts, .box_links {
+	max-width: 50%;
+}
+.vollbox {}
+.hinweis, .hinweis_rechts, .hinweis_wichtig, .baustelle {
+	width: 300px;
+	padding: 5px;
+	min-height: 60px;
+}
+.hinweis, .hinweis_rechts {
+	padding-left: 55px;
+	background: url("/img/ktip.png") no-repeat left center;
+}
+.hinweis_wichtig {
+	padding-left: 60px;
+	background: url("/img/important.png") no-repeat 5px center;
+    border: 1px solid $red;
+	float: left;
+}
+.baustelle {
+	background: url("/img/package_settings.png") no-repeat 5px center;
+	padding-left: 60px;
+	float: left;
+}
+.unsichtbar, .u, .u2, .com, .skip {
+	@include off-left;
+}
+
+/* Newsfeed */
+
+div.feedrahmen .feedeintrag {
+    font-family: "roboto","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    box-shadow: none !important;
+}
+div.fd-gradient .feedeintrag p a:last-child {
+    background: none;
+}

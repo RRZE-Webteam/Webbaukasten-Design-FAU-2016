@@ -1,0 +1,21 @@
+/**
+ * Projekt Vorlagenkatalog 
+ *
+ * Design "FAU 2016" – Farbvariante RWFak (rot)
+ *
+ * @copyright       Copyright RRZE-Webteam
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.0
+ * @lastmodified    02/2016
+ */
+
+$main: #8d1429;
+$lighter: #d01e3c;
+$hover: #42000c;
+$hover-lighter: #5c0011;
+$siegel: '../img/siegel-rwfak.png';
+$bg-header: '../img/bg-header-rw.png';
+
+@import "vorlage-farben";

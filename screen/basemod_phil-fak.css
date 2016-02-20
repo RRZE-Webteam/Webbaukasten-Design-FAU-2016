@@ -1,0 +1,65 @@
+/**
+ * Projekt Vorlagenkatalog 
+ *
+ * Design "FAU 2016" – Farbvariante PhilFak (braun)
+ *
+ * @copyright       Copyright RRZE-Webteam
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.0
+ * @lastmodified    02/2016
+ */
+h1, h2, h3, h4, h5, h6 {
+  color: #a36b0d; }
+
+a {
+  color: #a36b0d; }
+  a:hover, a:focus, a:active {
+    color: #553500; }
+
+blockquote p {
+  color: #a36b0d; }
+
+input[type="submit"] {
+  background: #a36b0d; }
+  input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active {
+    background: #553500; }
+
+#titel {
+  background: transparent radial-gradient(ellipse at center center, #ea9a13 0%, #a36b0d 100%) repeat scroll 0 0; }
+
+#footer {
+  background: #a36b0d; }
+
+#inhaltsinfo h1, #inhaltsinfo h2, #inhaltsinfo h3, #inhaltsinfo h4, #inhaltsinfo h5, #inhaltsinfo h6, #footer #zusatzinfo h1, #footer #zusatzinfo h2, #footer #zusatzinfo h3, #footer #zusatzinfo h4, #footer #zusatzinfo h5, #footer #zusatzinfo h6 {
+  color: #553500; }
+
+#hauptmenu li a:hover, #hauptmenu li a:focus, #hauptmenu li a:active {
+  color: #553500; }
+
+#bereichsmenu .infotext {
+  background: #a36b0d;
+  color: #fff; }
+#bereichsmenu .aktiv + .skip + .infotext {
+  background: #553500;
+  color: #ea9a13; }
+#bereichsmenu li span.aktiv:hover, #bereichsmenu li span.aktiv:focus, #bereichsmenu li span.aktiv:active,
+#bereichsmenu li a:hover, #bereichsmenu li a:focus, #bereichsmenu li a:active {
+  background: #a36b0d; }
+#bereichsmenu #hauptnavigation li.on {
+  background: #a36b0d; }
+  #bereichsmenu #hauptnavigation li.on a.aktiv, #bereichsmenu #hauptnavigation li.on span.aktiv {
+    background: #553500; }
+  #bereichsmenu #hauptnavigation li.on ul li {
+    border-top-color: #ea9a13; }
+
+@media screen and (min-width: 720px) {
+  #titel {
+    background: url("../img/siegel-philfak.png") no-repeat scroll 95% 20%, transparent radial-gradient(ellipse at center center, #ea9a13 0%, #a36b0d 100%) repeat scroll 0 0; } }
+@media screen and (min-width: 1024px) {
+  header {
+    background-image: url("../img/bg-header-phil.png"); }
+
+  #titel {
+    background: url("../img/siegel-philfak.png") no-repeat scroll 95% 20%, transparent radial-gradient(ellipse at center center, #ea9a13 0%, #a36b0d 70%) repeat scroll 0 0; } }

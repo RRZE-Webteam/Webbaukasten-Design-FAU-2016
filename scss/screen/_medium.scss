@@ -1,0 +1,52 @@
+/*
+ * Mediaqueries: >720px
+ */
+
+@media screen and (min-width: 720px) {
+
+    form {
+        border: 1px solid #dde5f0;
+        padding: 20px;
+    }
+    label {
+        width: 240px;
+        margin-right: 20px;
+    }
+    
+    #titel {
+        min-height: 120px;
+        padding-top: 20px;
+        background: url("../img/siegel-zuv.png") no-repeat scroll 95% 25%, rgba(0, 0, 0, 0) radial-gradient(ellipse at center center , $medium-blue 0%, $dark-blue 100%) repeat scroll 0 0;
+    }
+    #breadcrumb  {
+        h2 {
+            display: table-cell;
+        }
+    }
+    #hauptmenu li {
+        margin-right: 12px;
+    }
+
+    #sidebar {
+        display: block;
+        width: 240px;
+        float: right;
+        border-left: 2px solid #dde5f0;
+        margin-bottom: 11px;
+        margin-left: 30px;
+        padding: 0 0 0 18px;
+        background: #fff;
+    }
+    #sidebar-toggle, .js #sidebar-toggle {
+        display: none;
+    }
+    #tecmenu {
+        width: 50%;
+        float: left;
+    }
+    #zusatzinfo {
+        width: 50%;
+        overflow: auto;
+    }
+
+}

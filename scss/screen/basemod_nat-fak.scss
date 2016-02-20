@@ -1,0 +1,21 @@
+/**
+ * Projekt Vorlagenkatalog 
+ *
+ * Design "FAU 2016" – Farbvariante NatFak (grün)
+ *
+ * @copyright       Copyright RRZE-Webteam
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.0
+ * @lastmodified    02/2016
+ */
+
+$main: #048767;
+$lighter: #06d1a0;
+$hover: #00533f;
+$hover-lighter: #006d52;
+$siegel: '../img/siegel-natfak.png';
+$bg-header: '../img/bg-header-nat.png';
+
+@import "vorlage-farben";
