@@ -1,5 +1,5 @@
 /**
- * Projekt Vorlagenkatalog 
+ * Projekt Vorlagenkatalog
  *
  * Design "FAU 2016"
  *
@@ -16,40 +16,87 @@
 @import 'screen/modules';
 
 @media print {
-    
+
     body {
-	font-size: 13px;
+		font-size: 13px;
     }
+
     .noprint {
-	display: none;
+		display: none;
     }
-    
-    #suche {
-	display: none;
+
+	header{
+		background: none;
+		margin-top: 0;
+	}
+
+	#logo {
+		padding-bottom: 20px;
+		img {
+			float: left;
+			margin-right: 20px;
+			vertical-align: text-bottom;
+		}
+		& > a {
+			margin-right: 0;
+		}
+	}
+
+	#titel {
+		min-height: 0;
+		background: none;
+		padding-bottom: 40px;
+		h1 {
+			color: $dark-blue;
+		}
     }
-    
-    #footer {
-	display: none;
+	#start #titel {
+		padding-bottom: 10px;
+	}
+
+	#suche {
+		display: none;
     }
-    
-    #titel h1 {
-	color: #036;
-    }
+
     #breadcrumb {
-	p, a {
-	    color: $text;
-	}
-	img {
-	    width: 5px;
-	}
-	.skip {
-	    position: static;
-	}
-	
+		height: auto;
+		h2, p {
+			height: auto;
+		}
+		p, a {
+			color: $text;
+		}
+		img {
+			width: 5px;
+			border-bottom: 1px solid $dark-blue;
+			margin-right: 2px;
+		}
     }
-    
-    #logo img {
-	float: left;
-	margin-right: 20px;
+
+	#main {
+		top: 0;
+		padding-top: 0;
+	}
+
+	#inhaltsinfo {
+		border: 1px solid $border;
+	}
+
+	.feedeintrag img {
+		border: 0 none;
+		float: left;
+		margin: 0 10px 10px 0 !important;
+		max-height: 150px;
+		max-width: 150px;
+		height: auto;
+		width: auto;
+	}
+
+	.feedeintrag h3 {
+		clear: both;
+	}
+
+	#footer {
+		display: none;
     }
 }

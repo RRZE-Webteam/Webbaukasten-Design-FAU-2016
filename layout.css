@@ -1,5 +1,5 @@
 /*
- * Design 
+ * Design
  *
  * (en) central stylesheet
  * (de) Zentrales Stylesheet
@@ -26,6 +26,7 @@
 
 /* Layoutalternativen */
 /*@import url(screen/basemod_two_columns.css);*/
+/*@import url(screen/basemod_show_inhaltsinfo.css);*/
 /*@import url(screen/basemod_disable_search.css);*/
 @import url(screen/basemod_disable_targetmenu.css);
 @import url(screen/basemod_links.css);

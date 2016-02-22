@@ -169,6 +169,9 @@ header {
     width: 25px;
     background: #fff;
 }
+#nav-toggle:hover {
+	cursor: pointer;
+}
 .js #nav-toggle {
     display: block;
 }
@@ -181,9 +184,7 @@ header {
     height: 3px;
     margin-bottom: 3px;
 }
-#hauptmenu.toggled {
-    display: block;
-}
+
 #hauptmenu {
     display: none;
     position: absolute;
@@ -229,11 +230,9 @@ hr#nachkopf, hr#vorfooter {
 
 #menu {
     display: none;
+	padding-top: 42px;
 }
-#menu.toggled {
-    display: block;
-    padding-top: 42px;
-}
+
 #bereichsmenu {
     border-bottom: 1px solid $border;
     font-size: 17px;
@@ -336,11 +335,11 @@ hr#nachkopf, hr#vorfooter {
     height: 23px;
     background: url('/css/fau/img/info.gif') no-repeat 50% 50% #fff;
 }
-.js #sidebar-toggle {
-    display: block;
-}
 
-#sidebar.toggled {
+#sidebar-toggle:hover {
+	cursor: pointer;
+}
+.js #sidebar-toggle {
     display: block;
 }
 
@@ -383,12 +382,13 @@ hr#nachkopf, hr#vorfooter {
     }
 }
 
-#sidebar, #inhaltsinfo {
+#sidebar {
     display: none;
     background: $bg-grey;
 }
 
 #inhaltsinfo {
+	display:none;
     margin: 0 0 10px ;
     background: $bg-grey;
     padding: 10px;
@@ -396,6 +396,10 @@ hr#nachkopf, hr#vorfooter {
 
 #content {
     overflow:auto;
+}
+
+.table-wrapper .scrollable {
+	overflow-x: scroll;
 }
 
 #footer {

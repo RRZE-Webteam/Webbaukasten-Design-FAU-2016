@@ -1,8 +1,7 @@
-@charset "UTF-8";
 /**
  * Projekt Vorlagenkatalog
  *
- * Design "FAU 2016" – Erweiterung: Zielgruppenmenü ausgeblendet
+ * Design "FAU 2016" – Erweiterung: Inhaltsinfo anzeigen
  *
  * @copyright       Copyright RRZE-Webteam
  * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
@@ -11,11 +10,7 @@
  * @version         1.0
  * @lastmodified    02/2016
  */
-#hauptmenu {
-  display: none; }
 
-#menu {
-  padding-top: 0; }
-
-#main {
-  top: 0; }
+#inhaltsinfo {
+    display: block;
+}

@@ -96,37 +96,41 @@ a img {
   src: url("../fonts/roboto/Roboto-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Regular-webfont.woff") format("woff"), url("../fonts/roboto/Roboto-Regular-webfont.ttf") format("truetype"), url("../fonts/roboto/Roboto-Regular-webfont.svg#roboto") format("svg");
   font-style: normal;
   font-weight: normal; }
+
 @font-face {
   font-family: "roboto";
   src: url("../fonts/roboto/Roboto-Italic-webfont.eot");
   src: url("../fonts/roboto/Roboto-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Italic-webfont.woff") format("woff"), url("../fonts/roboto/Roboto-Italic-webfont.ttf") format("truetype"), url("../fonts/roboto/Roboto-Italic-webfont.svg#roboto") format("svg");
   font-style: italic;
   font-weight: normal; }
+
 @font-face {
   font-family: "roboto";
   src: url("../fonts/roboto/Roboto-Bold-webfont.eot");
   src: url("../fonts/roboto/Roboto-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Bold-webfont.woff") format("woff"), url("../fonts/roboto/Roboto-Bold-webfont.ttf") format("truetype"), url("../fonts/roboto/Roboto-Bold-webfont.svg#roboto") format("svg");
   font-style: normal;
   font-weight: bold; }
+
 @font-face {
   font-family: "roboto";
   src: url("../fonts/roboto/Roboto-BoldItalic-webfont.eot");
   src: url("../fonts/roboto/Roboto-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-BoldItalic-webfont.woff") format("woff"), url("../fonts/roboto/Roboto-BoldItalic-webfont.ttf") format("truetype"), url("../fonts/roboto/Roboto-BoldItalic-webfont.svg#roboto") format("svg");
   font-style: italic;
   font-weight: bold; }
+
 body {
   font-family: "roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: #444;
+  color: #444444;
   font-size: 15px;
   margin: 0; }
 
 a {
-  color: #036; }
+  color: #003366; }
   a:hover, a:focus, a:active {
     color: #1f4c7a; }
 
 acronym {
-  border-bottom: 1px dotted #036; }
+  border-bottom: 1px dotted #003366; }
 
 dt {
   font-weight: bold; }
@@ -138,7 +142,7 @@ dd {
 h1, h2, h3, h4, h5, h6 {
   font-family: inherit;
   font-weight: normal;
-  color: #036;
+  color: #003366;
   margin: 20px 0;
   text-rendering: optimizelegibility; }
 
@@ -216,7 +220,7 @@ code {
   border-radius: 3px;
   background-color: #f7f7f9;
   font-size: .9em;
-  color: #d14;
+  color: #dd1144;
   padding: 2px 4px;
   white-space: nowrap; }
 
@@ -238,7 +242,7 @@ cite {
 
 blockquote {
   font-family: Georgia,serif;
-  background: transparent url("../img/quote-blue.png") no-repeat scroll left top;
+  background: rgba(0, 0, 0, 0) url("../img/quote-blue.png") no-repeat scroll left top;
   font-style: italic;
   margin: 10px 50px;
   min-height: 50px;
@@ -248,7 +252,7 @@ blockquote {
     font-weight: 300;
     line-height: 1.25;
     margin-bottom: 0;
-    color: #036; }
+    color: #003366; }
 
 img {
   max-width: 100%;
@@ -393,7 +397,7 @@ input[type="file"] {
 
 button,
 input[type="submit"] {
-  background: #036;
+  background: #003366;
   border: none;
   border-radius: 20px;
   box-sizing: content-box;
@@ -435,7 +439,7 @@ input[type="submit"]:focus {
   vertical-align: middle; }
 
 .rot {
-  color: #d14; }
+  color: #dd1144; }
 
 /* Bilder */
 .bildlinks {
@@ -486,7 +490,7 @@ input[type="submit"]:focus {
 .hinweis_wichtig {
   padding-left: 60px;
   background: url("/img/important.png") no-repeat 5px center;
-  border: 1px solid #d14;
+  border: 1px solid #dd1144;
   float: left; }
 
 .baustelle {
@@ -514,7 +518,7 @@ div.fd-gradient .feedeintrag p a:last-child {
  * Layout
  */
 header {
-  background: #036;
+  background: #003366;
   margin-top: 42px;
   position: relative; }
 
@@ -529,12 +533,12 @@ header {
     font-size: 28px;
     margin: 0; }
     #logo p a {
-      color: #444;
+      color: #444444;
       text-decoration: none; }
       #logo p a:hover, #logo p a:focus, #logo p a:active {
         text-decoration: underline; }
   #logo .description {
-    color: #444;
+    color: #444444;
     display: block;
     font-size: 16px;
     margin: 0; }
@@ -548,7 +552,7 @@ header {
 
 #titel {
   clear: both;
-  background: transparent radial-gradient(ellipse at center center, #0059b3 0%, #036 100%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) radial-gradient(ellipse at center center, #0059b3 0%, #003366 100%) repeat scroll 0 0;
   min-height: 100px;
   padding: 10px 10px 52px; }
   #titel h1 {
@@ -579,8 +583,8 @@ header {
     border-radius: 20px;
     padding-right: 20px;
     margin-right: -60px;
-    background: #036;
-    color: #8AA1B8;
+    background: #003366;
+    color: #8aa1b8;
     border: none; }
   #suche input[type="text"]:focus {
     background: #1f4c7a; }
@@ -590,7 +594,7 @@ header {
     line-height: 1em;
     padding: 0 8px;
     background: #fff;
-    color: #036; }
+    color: #003366; }
   #suche h2, #suche p label {
     position: absolute;
     left: -9999px;
@@ -655,16 +659,16 @@ header {
   width: 25px;
   background: #fff; }
 
+#nav-toggle:hover {
+  cursor: pointer; }
+
 .js #nav-toggle {
   display: block; }
 
 #nav-toggle div {
-  background: #036;
+  background: #003366;
   height: 3px;
   margin-bottom: 3px; }
-
-#hauptmenu.toggled {
-  display: block; }
 
 #hauptmenu {
   display: none;
@@ -689,7 +693,7 @@ header {
       text-decoration: none; }
       #hauptmenu li a:hover, #hauptmenu li a:focus, #hauptmenu li a:active {
         text-decoration: underline;
-        color: #036; }
+        color: #003366; }
 
 #kurzinfo {
   margin: 20px 0; }
@@ -702,10 +706,7 @@ hr#nachkopf, hr#vorfooter {
   padding: 20px 10px; }
 
 #menu {
-  display: none; }
-
-#menu.toggled {
-  display: block;
+  display: none;
   padding-top: 42px; }
 
 #bereichsmenu {
@@ -714,8 +715,8 @@ hr#nachkopf, hr#vorfooter {
   #bereichsmenu .infotext {
     display: none;
     position: reative;
-    background: #036;
-    color: #8AA1B8;
+    background: #003366;
+    color: #8aa1b8;
     padding: 0 15px 5px;
     font-size: 12px;
     font-weight: normal; }
@@ -743,7 +744,7 @@ hr#nachkopf, hr#vorfooter {
       font-weight: bold;
       text-decoration: none; }
       #bereichsmenu li a:hover, #bereichsmenu li a:focus, #bereichsmenu li a:active, #bereichsmenu li span.aktiv:hover, #bereichsmenu li span.aktiv:focus, #bereichsmenu li span.aktiv:active {
-        background: #036;
+        background: #003366;
         color: #fff; }
   #bereichsmenu #navigation > li {
     border-top-color: transparent; }
@@ -752,12 +753,12 @@ hr#nachkopf, hr#vorfooter {
     font-size: 15px;
     font-weight: bold; }
   #bereichsmenu #hauptnavigation li.on {
-    background: #036;
+    background: #003366;
     color: #fff; }
     #bereichsmenu #hauptnavigation li.on a {
       color: #fff; }
     #bereichsmenu #hauptnavigation li.on a.aktiv {
-      background: #036;
+      background: #003366;
       color: #fff; }
     #bereichsmenu #hauptnavigation li.on span.aktiv {
       background: #1f4c7a; }
@@ -780,12 +781,12 @@ hr#nachkopf, hr#vorfooter {
   right: 55px;
   width: 26px;
   height: 23px;
-  background: url("/css/fau/img/info.gif") no-repeat 50% 50% #fff; }
+  background: url("/css/fau/img/info.gif") no-repeat 50% 50% white; }
+
+#sidebar-toggle:hover {
+  cursor: pointer; }
 
 .js #sidebar-toggle {
-  display: block; }
-
-#sidebar.toggled {
   display: block; }
 
 #sidebar, #footerinfos, #inhaltsinfo {
@@ -819,11 +820,12 @@ hr#nachkopf, hr#vorfooter {
     padding-top: 0;
     margin-top: 0; }
 
-#sidebar, #inhaltsinfo {
+#sidebar {
   display: none;
   background: #e9edf2; }
 
 #inhaltsinfo {
+  display: none;
   margin: 0 0 10px;
   background: #e9edf2;
   padding: 10px; }
@@ -831,12 +833,15 @@ hr#nachkopf, hr#vorfooter {
 #content {
   overflow: auto; }
 
+.table-wrapper .scrollable {
+  overflow-x: scroll; }
+
 #footer {
   clear: both;
   position: relative;
   top: 42px;
   padding: 0 10px;
-  background: #036;
+  background: #003366;
   color: #fff;
   padding: 20px 10px; }
   #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer a {
@@ -945,7 +950,7 @@ hr#nachkopf, hr#vorfooter {
   #titel {
     min-height: 120px;
     padding-top: 20px;
-    background: url("../img/siegel-zuv.png") no-repeat scroll 95% 25%, transparent radial-gradient(ellipse at center center, #0059b3 0%, #036 100%) repeat scroll 0 0; }
+    background: url("../img/siegel-zuv.png") no-repeat scroll 95% 25%, rgba(0, 0, 0, 0) radial-gradient(ellipse at center center, #0059b3 0%, #003366 100%) repeat scroll 0 0; }
 
   #breadcrumb h2 {
     display: table-cell; }
@@ -991,7 +996,7 @@ hr#nachkopf, hr#vorfooter {
 
   #titel {
     min-height: 160px;
-    background: url("../img/siegel-zuv.png") no-repeat scroll 95% 20%, transparent radial-gradient(ellipse at center center, #0059b3 0%, #036 70%) repeat scroll 0 0; }
+    background: url("../img/siegel-zuv.png") no-repeat scroll 95% 20%, rgba(0, 0, 0, 0) radial-gradient(ellipse at center center, #0059b3 0%, #003366 70%) repeat scroll 0 0; }
 
   #hauptmenu {
     display: block; }

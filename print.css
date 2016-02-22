@@ -1,5 +1,5 @@
 /**
- * Projekt Vorlagenkatalog 
+ * Projekt Vorlagenkatalog
  *
  * Design "FAU 2016"
  *
@@ -19,22 +19,61 @@
   .noprint {
     display: none; }
 
+  header {
+    background: none;
+    margin-top: 0; }
+
+  #logo {
+    padding-bottom: 20px; }
+    #logo img {
+      float: left;
+      margin-right: 20px;
+      vertical-align: text-bottom; }
+    #logo > a {
+      margin-right: 0; }
+
+  #titel {
+    min-height: 0;
+    background: none;
+    padding-bottom: 40px; }
+    #titel h1 {
+      color: #003366; }
+
+  #start #titel {
+    padding-bottom: 10px; }
+
   #suche {
     display: none; }
 
-  #footer {
-    display: none; }
+  #breadcrumb {
+    height: auto; }
+    #breadcrumb h2, #breadcrumb p {
+      height: auto; }
+    #breadcrumb p, #breadcrumb a {
+      color: #444444; }
+    #breadcrumb img {
+      width: 5px;
+      border-bottom: 1px solid #003366;
+      margin-right: 2px; }
 
-  #titel h1 {
-    color: #036; }
+  #main {
+    top: 0;
+    padding-top: 0; }
 
-  #breadcrumb p, #breadcrumb a {
-    color: #444444; }
-  #breadcrumb img {
-    width: 5px; }
-  #breadcrumb .skip {
-    position: static; }
+  #inhaltsinfo {
+    border: 1px solid #e5e5e5; }
 
-  #logo img {
+  .feedeintrag img {
+    border: 0 none;
     float: left;
-    margin-right: 20px; } }
+    margin: 0 10px 10px 0 !important;
+    max-height: 150px;
+    max-width: 150px;
+    height: auto;
+    width: auto; }
+
+  .feedeintrag h3 {
+    clear: both; }
+
+  #footer {
+    display: none; } }

@@ -1,5 +1,5 @@
 /**
- * Projekt Vorlagenkatalog 
+ * Projekt Vorlagenkatalog
  *
  * Design "FAU 2016" – Erweiterung: Zielgruppenmenü ausgeblendet
  *
@@ -11,10 +11,10 @@
  * @lastmodified    02/2016
  */
 
-#hauptmenu, #hauptmenu.toggled {
+#hauptmenu {
     display: none;
 }
-#menu.toggled {
+#menu {
      padding-top: 0;
 }
 #main {
