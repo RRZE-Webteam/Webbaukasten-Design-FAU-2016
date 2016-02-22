@@ -1,0 +1,40 @@
+/**
+ * Projekt Vorlagenkatalog 
+ *
+ * Design "FAU 2016"
+ *
+ * Print Layout
+ *
+ * @copyright       Copyright RRZE-Webteam
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.0
+ * @lastmodified    02/2016
+ */
+@media print {
+  body {
+    font-size: 13px; }
+
+  .noprint {
+    display: none; }
+
+  #suche {
+    display: none; }
+
+  #footer {
+    display: none; }
+
+  #titel h1 {
+    color: #036; }
+
+  #breadcrumb p, #breadcrumb a {
+    color: #444444; }
+  #breadcrumb img {
+    width: 5px; }
+  #breadcrumb .skip {
+    position: static; }
+
+  #logo img {
+    float: left;
+    margin-right: 20px; } }
