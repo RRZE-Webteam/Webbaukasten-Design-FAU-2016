@@ -24,9 +24,11 @@ jQuery(document).ready(function ($) {
     $( "#nav-toggle" ).click(function() {
         $( "#sidebar" ).slideUp( "slow");
         $( "#menu" ).slideToggle( "slow");
+		$( "#hauptmenu" ).slideToggle( "slow");
     });
     $('#sidebar-toggle').click(function() {
         $( "#menu" ).slideUp( "slow");
+        $( "#hauptmenu" ).slideUp( "slow");
         $( "#sidebar" ).slideToggle( "slow");
     });
 

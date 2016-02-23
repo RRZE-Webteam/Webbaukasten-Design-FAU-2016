@@ -12,7 +12,7 @@
  * @lastmodified    02/2016
  */
 #hauptmenu {
-  display: none; }
+  display: none !important; }
 
 #menu {
   padding-top: 0; }

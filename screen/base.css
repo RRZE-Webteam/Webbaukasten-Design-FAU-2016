@@ -643,12 +643,40 @@ header {
   display: none; }
 
 #sprungmarken {
-  display: none;
   margin: 0;
   padding: 0;
   position: absolute;
-  right: 12px;
-  top: 160px; }
+  left: 0;
+  top: 183px;
+  padding: 5px 0 5px 5px;
+  z-index: 1; }
+
+#sprungmarken h2, #sprungmarken a:link, #sprungmarken a:visited {
+  position: absolute;
+  left: -9999px;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  overflow: hidden; }
+#sprungmarken ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+#sprungmarken a:hover, #sprungmarken a:active, #sprungmarken a:focus {
+  white-space: nowrap;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  text-decoration: underline;
+  padding: 2px 6px 3px 6px;
+  display: block;
+  width: auto;
+  height: auto;
+  font-size: 13px;
+  overflow: auto;
+  z-index: 3;
+  background-color: white;
+  color: #003366; }
 
 #nav-toggle {
   display: none;
@@ -671,7 +699,6 @@ header {
   margin-bottom: 3px; }
 
 #hauptmenu {
-  display: none;
   position: absolute;
   bottom: -42px;
   height: 42px;
@@ -695,6 +722,9 @@ header {
         text-decoration: underline;
         color: #003366; }
 
+.js #hauptmenu {
+  display: none; }
+
 #kurzinfo {
   margin: 20px 0; }
 
@@ -706,8 +736,10 @@ hr#nachkopf, hr#vorfooter {
   padding: 20px 10px; }
 
 #menu {
-  display: none;
   padding-top: 42px; }
+
+.js #menu {
+  display: none; }
 
 #bereichsmenu {
   border-bottom: 1px solid #e5e5e5;
@@ -774,20 +806,16 @@ hr#nachkopf, hr#vorfooter {
     font-weight: normal; }
 
 #sidebar-toggle {
-  display: none;
   position: absolute;
   float: right;
   top: 8px;
   right: 55px;
   width: 26px;
   height: 23px;
-  background: url("/css/fau/img/info.gif") no-repeat 50% 50% white; }
+  background: url("../img/info.gif") no-repeat 50% 50% white; }
 
 #sidebar-toggle:hover {
   cursor: pointer; }
-
-.js #sidebar-toggle {
-  display: block; }
 
 #sidebar, #footerinfos, #inhaltsinfo {
   font-size: 13px;
@@ -821,8 +849,10 @@ hr#nachkopf, hr#vorfooter {
     margin-top: 0; }
 
 #sidebar {
-  display: none;
   background: #e9edf2; }
+
+.js #sidebar {
+  display: none; }
 
 #inhaltsinfo {
   display: none;

@@ -152,12 +152,39 @@ header {
 }
 
 #sprungmarken {
-    display: none;
     margin: 0;
     padding: 0;
     position: absolute;
-    right: 12px;
-    top: 160px;
+    left: 0;
+    top: 183px;
+	padding: 5px 0 5px 5px;
+	z-index: 1;
+}
+#sprungmarken {
+	h2, a:link, a:visited {
+		@include off-left;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	a:hover, a:active, a:focus {
+		white-space: nowrap;
+		position: absolute;
+		top: 0px;
+		left: 10px;
+		text-decoration: underline;
+		padding:2px 6px 3px 6px;
+		display: block;
+		width: auto;
+		height:auto;
+		font-size: 13px;
+		overflow:auto;
+		z-index: 3;
+		background-color: $page;
+		color: $dark-blue;
+	}
 }
 
 #nav-toggle {
@@ -186,7 +213,6 @@ header {
 }
 
 #hauptmenu {
-    display: none;
     position: absolute;
     bottom: -42px;
     height: 42px;
@@ -215,6 +241,10 @@ header {
     }
 }
 
+.js #hauptmenu {
+	display: none;
+}
+
 #kurzinfo {
     margin: 20px 0;
 }
@@ -229,8 +259,11 @@ hr#nachkopf, hr#vorfooter {
 }
 
 #menu {
-    display: none;
-	padding-top: 42px;
+    padding-top: 42px;
+}
+
+.js #menu {
+	display: none;
 }
 
 #bereichsmenu {
@@ -326,21 +359,17 @@ hr#nachkopf, hr#vorfooter {
 }
 
 #sidebar-toggle {
-    display: none;
     position: absolute;
     float: right;
     top: 8px;
     right: 55px;
     width: 26px;
     height: 23px;
-    background: url('/css/fau/img/info.gif') no-repeat 50% 50% #fff;
+    background: url('../img/info.gif') no-repeat 50% 50% #fff;
 }
 
 #sidebar-toggle:hover {
 	cursor: pointer;
-}
-.js #sidebar-toggle {
-    display: block;
 }
 
 #sidebar, #footerinfos, #inhaltsinfo {
@@ -383,10 +412,12 @@ hr#nachkopf, hr#vorfooter {
 }
 
 #sidebar {
-    display: none;
     background: $bg-grey;
 }
 
+.js #sidebar {
+	display: none;
+}
 #inhaltsinfo {
 	display:none;
     margin: 0 0 10px ;

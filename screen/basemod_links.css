@@ -1,7 +1,8 @@
+@charset "UTF-8";
 /**
- * Projekt Vorlagenkatalog 
+ * Projekt Vorlagenkatalog
  *
- * Design "FAU 2016" – Erweiterung: Linkicons 
+ * Design "FAU 2016" – Erweiterung: Linkicons
  *
  * @copyright       Copyright RRZE-Webteam
  * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
@@ -13,7 +14,7 @@
 @media screen, projection {
   a[href^="http:"] {
     padding-left: 12px;
-    background: url("/css/fau/img/extern.gif") center left no-repeat; }
+    background: url("../img/extern.gif") center left no-repeat; }
 
   a[href^="http://www.techfak.uni-erlangen.org"] {
     padding-left: 16px;

@@ -11,7 +11,7 @@ body {
 Empfohlene Konfigurationen:
 ---------------------------
 vorlagen.conf:
-BreadCrumbPartTAG   <img src="/css/fau/img/breadcrumbarrow.gif" height="9" width="20" alt=" " />
+BreadCrumbPartTAG   <img src="/css/fau-2016/img/breadcrumbarrow.gif" height="9" width="20" alt=" " />
 oder
 BreadCrumbPartTAG   &ndash;/&ndash;
 (blaues Standard-GIF passt nicht)

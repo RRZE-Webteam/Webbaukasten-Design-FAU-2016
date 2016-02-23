@@ -8,11 +8,11 @@
 	<link rel="section" href="#seite" media="handheld" title="Zum Seitenanfang">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
-	<link href="/css/fau/layout.css" type="text/css" rel="stylesheet" title="default">
+	<link href="/css/fau-2016/layout.css" type="text/css" rel="stylesheet" title="default">
 	<link href="/css/tools.css" type="text/css" rel="stylesheet" title="default">
 	<!--[if lte IE 7]>
 		<link href="/css/d7/patches/patch.css" rel="stylesheet" type="text/css">
 	<![endif]-->
 
-	<script src="/js/jquery-1.10.2.min.js"></script>
-	<script src="/css/fau/js/scripts.js" type="text/javascript"></script>
+	<script src="/js/jquery-1.12.1.min.js"></script>
+	<script src="/css/fau-2016/js/scripts.js" type="text/javascript"></script>

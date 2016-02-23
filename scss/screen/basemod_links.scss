@@ -1,7 +1,7 @@
 /**
- * Projekt Vorlagenkatalog 
+ * Projekt Vorlagenkatalog
  *
- * Design "FAU 2016" – Erweiterung: Linkicons 
+ * Design "FAU 2016" – Erweiterung: Linkicons
  *
  * @copyright       Copyright RRZE-Webteam
  * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
@@ -14,19 +14,19 @@
 @media screen, projection {
 
     a[href^="http:"] {
-        padding-left:12px;      
-        background:url('/css/fau/img/extern.gif') center left no-repeat;
-    } 
+        padding-left:12px;
+        background:url('../img/extern.gif') center left no-repeat;
+    }
     a[href^="http://www.techfak.uni-erlangen.org"] {
-        padding-left:16px;      
+        padding-left:16px;
         background:url('/img/links/englisch.gif') center left no-repeat;
-    } 
+    }
     a[href^="http://blogs.fau.de"] {
-        padding-left:18px;      
+        padding-left:18px;
         background:url('/img/links/blog.png') center left no-repeat;
     }
     a[href^="http://univis"] {
-        padding-left:44px;      
+        padding-left:44px;
         background:url('/img/links/univis.gif') center left no-repeat;
     }
 
