@@ -12,29 +12,76 @@
         width: 240px;
         margin-right: 20px;
     }
-    
-    #titel {
+
+    header {
+		margin-top: 42px;
+	}
+	#logo {
+		& > p {
+			margin-right: 45px;
+		}
+	}
+	#titel {
         min-height: 120px;
         padding-top: 20px;
         background: url("../img/siegel-zuv.png") no-repeat scroll 95% 25%, rgba(0, 0, 0, 0) radial-gradient(ellipse at center center , $medium-blue 0%, $dark-blue 100%) repeat scroll 0 0;
     }
-    #breadcrumb  {
+
+	#breadcrumb  {
         h2 {
             display: table-cell;
         }
     }
-    #hauptmenu li {
-        margin-right: 12px;
-    }
 
-    #sidebar {
+	#hauptmenu, .js #hauptmenu {
+		display: block;
+		position: absolute;
+		top: -42px;
+		padding-right: 250px;
+		height: 42px;
+		overflow: hidden;
+		ul {
+			width: auto;
+			float: left;
+		}
+		li {
+			margin-right: 12px;
+			height: 42px;
+			a {
+				padding: 12px 0;
+			}
+		}
+	}
+	#suche {
+		position: absolute;
+		top: -42px;
+		right: 0;
+		left: auto;
+		float: right;
+		width: auto;
+		z-index: 2;
+		p {
+			float: right;
+		}
+		input[type="text"] {
+			width: 180px;
+		}
+	}
+
+	#nav-toggle {
+		z-index: 10;
+		top: 12px;
+		background-color: $page;
+	}
+
+    #sidebar, .js #sidebar {
         display: block;
         width: 240px;
         float: right;
         border-left: 2px solid #dde5f0;
         margin-bottom: 11px;
         margin-left: 30px;
-        padding: 0 0 0 18px;
+        padding: 0 10px 0 18px;
         background: #fff;
     }
     #sidebar-toggle, .js #sidebar-toggle {

@@ -170,6 +170,14 @@ h4 {
   margin: 0;
   padding: 11px 0; }
 
+#inhaltsinfo + h1,
+#inhaltsinfo + h2,
+#inhaltsinfo + h3,
+#inhaltsinfo + h4,
+#inhaltsinfo + h5,
+#inhaltsinfo + h6 {
+  padding-top: 10px; }
+
 hr::before {
   background: #fff none repeat scroll 0 0;
   bottom: 0;
@@ -699,21 +707,24 @@ header {
   margin-bottom: 3px; }
 
 #hauptmenu {
-  position: absolute;
-  bottom: -42px;
-  height: 42px;
+  position: relative;
   left: 0;
   background: #e9edf2;
   width: 100%;
   padding: 0 10px;
-  font-size: 13px; }
+  font-size: 13px;
+  z-index: 1;
+  overflow: auto; }
   #hauptmenu ul {
     margin: 0; }
   #hauptmenu li {
     float: left;
     list-style-type: none;
     padding: 0;
-    margin-right: 8px; }
+    margin-right: 8px;
+    margin-bottom: 0;
+    height: 38px;
+    overflow: hidden; }
     #hauptmenu li a {
       display: block;
       padding: 10px 0;
@@ -733,10 +744,8 @@ hr#nachkopf, hr#vorfooter {
 
 #main {
   position: relative;
-  padding: 20px 10px; }
-
-#menu {
-  padding-top: 42px; }
+  padding: 0 10px 20px;
+  clear: both; }
 
 .js #menu {
   display: none; }
@@ -849,7 +858,8 @@ hr#nachkopf, hr#vorfooter {
     margin-top: 0; }
 
 #sidebar {
-  background: #e9edf2; }
+  background: #e9edf2;
+  margin-top: 10px; }
 
 .js #sidebar {
   display: none; }
@@ -861,6 +871,7 @@ hr#nachkopf, hr#vorfooter {
   padding: 10px; }
 
 #content {
+  margin-top: 10px;
   overflow: auto; }
 
 .table-wrapper .scrollable {
@@ -977,6 +988,12 @@ hr#nachkopf, hr#vorfooter {
     width: 240px;
     margin-right: 20px; }
 
+  header {
+    margin-top: 42px; }
+
+  #logo > p {
+    margin-right: 45px; }
+
   #titel {
     min-height: 120px;
     padding-top: 20px;
@@ -985,17 +1002,48 @@ hr#nachkopf, hr#vorfooter {
   #breadcrumb h2 {
     display: table-cell; }
 
-  #hauptmenu li {
-    margin-right: 12px; }
+  #hauptmenu, .js #hauptmenu {
+    display: block;
+    position: absolute;
+    top: -42px;
+    padding-right: 250px;
+    height: 42px;
+    overflow: hidden; }
+    #hauptmenu ul, .js #hauptmenu ul {
+      width: auto;
+      float: left; }
+    #hauptmenu li, .js #hauptmenu li {
+      margin-right: 12px;
+      height: 42px; }
+      #hauptmenu li a, .js #hauptmenu li a {
+        padding: 12px 0; }
 
-  #sidebar {
+  #suche {
+    position: absolute;
+    top: -42px;
+    right: 0;
+    left: auto;
+    float: right;
+    width: auto;
+    z-index: 2; }
+    #suche p {
+      float: right; }
+    #suche input[type="text"] {
+      width: 180px; }
+
+  #nav-toggle {
+    z-index: 10;
+    top: 12px;
+    background-color: white; }
+
+  #sidebar, .js #sidebar {
     display: block;
     width: 240px;
     float: right;
     border-left: 2px solid #dde5f0;
     margin-bottom: 11px;
     margin-left: 30px;
-    padding: 0 0 0 18px;
+    padding: 0 10px 0 18px;
     background: #fff; }
 
   #sidebar-toggle, .js #sidebar-toggle {
@@ -1012,9 +1060,19 @@ hr#nachkopf, hr#vorfooter {
  * Mediaqueries: >1024px
  */
 @media screen and (min-width: 1024px) {
+  #seite {
+    background: url("../img/bg-seite.png") repeat-x; }
+
   header {
-    background: url("../img/bg-header.png") repeat-x;
-    background-position: left 0px bottom -140px; }
+    margin-top: 0;
+    padding-top: 42px;
+    background-color: transparent;
+    background-image: url("../img/bg-seite.png"), url("../img/bg-header.png");
+    background-position: left top, left bottom;
+    background-repeat: repeat-x, repeat-x; }
+
+  #kopf {
+    position: relative; }
 
   #kopf, #suche form, #main, #footerinfos, #hauptmenu ul, #footer .last_modified {
     max-width: 1200px;
@@ -1024,21 +1082,32 @@ hr#nachkopf, hr#vorfooter {
   #nav-toggle, .js #nav-toggle {
     display: none; }
 
+  #logo {
+    padding: 15px; }
+
   #titel {
     min-height: 160px;
-    background: url("../img/siegel-zuv.png") no-repeat scroll 95% 20%, rgba(0, 0, 0, 0) radial-gradient(ellipse at center center, #0059b3 0%, #003366 70%) repeat scroll 0 0; }
+    background: url("../img/siegel-zuv.png") no-repeat scroll 95% 20%, rgba(0, 0, 0, 0) radial-gradient(ellipse at center center, #0059b3 0%, #003366 70%) repeat scroll 0 0;
+    padding-left: 15px;
+    padding-right: 15px; }
 
-  #hauptmenu {
-    display: block; }
+  #breadcrumb {
+    padding-left: 15px;
+    padding-right: 15px; }
 
-  #hauptmenu ul {
-    padding: 0 10px; }
+  #hauptmenu, .js #hauptmenu {
+    padding: 0; }
+    #hauptmenu ul, .js #hauptmenu ul {
+      float: none;
+      padding: 0 250px 0 10px; }
 
-  #suche p {
-    float: right; }
+  #suche {
+    width: 100%;
+    background: transparent; }
+    #suche p {
+      float: right; }
 
   #main {
-    top: 42px;
     padding-left: 0;
     padding-right: 0; }
 

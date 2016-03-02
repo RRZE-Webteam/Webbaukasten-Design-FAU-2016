@@ -213,14 +213,16 @@ header {
 }
 
 #hauptmenu {
-    position: absolute;
-    bottom: -42px;
-    height: 42px;
+    position: relative;
+    //bottom: -40px;
+    //height: 40px;
     left: 0;
     background: $bg-grey;
     width: 100%;
     padding: 0 10px;
     font-size: 13px;
+	z-index: 1;
+	overflow: auto;
     ul {
         margin: 0;
     }
@@ -229,6 +231,9 @@ header {
         list-style-type: none;
         padding: 0;
         margin-right: 8px;
+		margin-bottom: 0;
+		height: 38px;
+		overflow: hidden;
         a {
             display: block;
             padding: 10px 0;
@@ -255,11 +260,8 @@ hr#nachkopf, hr#vorfooter {
 
 #main {
     position: relative;
-    padding: 20px 10px;
-}
-
-#menu {
-    padding-top: 42px;
+    padding: 0 10px 20px;
+	clear: both;
 }
 
 .js #menu {
@@ -413,6 +415,7 @@ hr#nachkopf, hr#vorfooter {
 
 #sidebar {
     background: $bg-grey;
+	margin-top: 10px;
 }
 
 .js #sidebar {
@@ -426,6 +429,7 @@ hr#nachkopf, hr#vorfooter {
 }
 
 #content {
+	margin-top: 10px;
     overflow:auto;
 }
 

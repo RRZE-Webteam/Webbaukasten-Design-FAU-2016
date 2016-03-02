@@ -24,11 +24,15 @@ jQuery(document).ready(function ($) {
     $( "#nav-toggle" ).click(function() {
         $( "#sidebar" ).slideUp( "slow");
         $( "#menu" ).slideToggle( "slow");
-		$( "#hauptmenu" ).slideToggle( "slow");
+		if (windowWidth < 720) {
+			$( "#hauptmenu" ).slideToggle( "slow");
+		}
     });
     $('#sidebar-toggle').click(function() {
         $( "#menu" ).slideUp( "slow");
-        $( "#hauptmenu" ).slideUp( "slow");
+        if (windowWidth < 720) {
+			$( "#hauptmenu" ).slideUp( "slow");
+		}
         $( "#sidebar" ).slideToggle( "slow");
     });
 

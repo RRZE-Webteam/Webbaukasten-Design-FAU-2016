@@ -4,11 +4,21 @@
 
 @media screen and (min-width: 1024px) {
 
-    header {
-        background: url("../img/bg-header.png") repeat-x;
-        background-position: left 0px bottom -140px;
+    #seite {
+		background: url("../img/bg-seite.png") repeat-x;
+	}
+	header {
+        margin-top: 0;
+		padding-top: 42px;
+		background-color: transparent;
+		background-image: url("../img/bg-seite.png"), url("../img/bg-header.png");
+		background-position: left top, left bottom;
+		background-repeat: repeat-x, repeat-x;
     }
-    #kopf, #suche form, #main, #footerinfos, #hauptmenu ul , #footer .last_modified{
+	#kopf{
+		position: relative;
+	}
+    #kopf, #suche form, #main, #footerinfos, #hauptmenu ul, #footer .last_modified {
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
@@ -16,21 +26,34 @@
     #nav-toggle, .js #nav-toggle {
         display: none;
     }
-    #titel {
+    #logo {
+		padding: 15px;
+	}
+	#titel {
         min-height: 160px;
         background: url("../img/siegel-zuv.png") no-repeat scroll 95% 20%, rgba(0, 0, 0, 0) radial-gradient(ellipse at center center , $medium-blue 0%, $dark-blue 70%) repeat scroll 0 0;
+		padding-left: 15px;
+		padding-right: 15px;
     }
-    #hauptmenu {
-        display: block;
-    }
-    #hauptmenu ul {
-        padding: 0 10px;
-    }
-    #suche p {
-        float: right;
-    }
+	#breadcrumb {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+    #hauptmenu, .js #hauptmenu {
+		padding: 0;
+		ul {
+			float: none;
+			padding: 0 250px 0 10px;
+		}
+	}
+    #suche {
+		width: 100%;
+		background: transparent;
+		p {
+			float: right;
+		}
+	}
     #main {
-        top: 42px;
         padding-left: 0;
         padding-right: 0;
     }

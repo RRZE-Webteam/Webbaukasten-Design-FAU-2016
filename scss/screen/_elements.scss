@@ -67,6 +67,14 @@ h4 {
     padding: 11px 0;
 }
 
+#inhaltsinfo + h1,
+#inhaltsinfo + h2,
+#inhaltsinfo + h3,
+#inhaltsinfo + h4,
+#inhaltsinfo + h5,
+#inhaltsinfo + h6 {
+	padding-top: 10px;
+}
 hr::before {
     background: #fff none repeat scroll 0 0;
     bottom: 0;
@@ -229,22 +237,22 @@ label {
     text-align: left;
     width: 100%;
 }
-select, 
-textarea, 
-input[type="text"], 
-input[type="password"], 
-input[type="datetime"], 
-input[type="datetime-local"], 
-input[type="date"], 
-input[type="month"], 
-input[type="time"], 
-input[type="week"], 
-input[type="number"], 
-input[type="email"], 
-input[type="url"], 
-input[type="search"], 
-input[type="tel"], 
-input[type="color"], 
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
 input[type="captcha"] {
     padding: 5px 10px;
     width: 100%;
@@ -258,21 +266,21 @@ input[type="captcha"] {
     vertical-align: middle;
 }
 
-textarea, 
-input[type="text"], 
-input[type="password"], 
-input[type="datetime"], 
-input[type="datetime-local"], 
-input[type="date"], 
-input[type="month"], 
-input[type="time"], 
-input[type="week"], 
-input[type="number"], 
-input[type="email"], 
-input[type="url"], 
-input[type="search"], 
-input[type="tel"], 
-input[type="color"], 
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
 input[type="captcha"] {
     background-color: #ffffff;
     border: 1px solid #ccc;
