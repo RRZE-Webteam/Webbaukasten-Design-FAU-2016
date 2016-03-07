@@ -36,12 +36,6 @@ input[type="submit"] {
     }
 }
 
-#hauptmenu li {
-    a:hover, a:focus, a:active {
-        color: $hover;
-    }
-}
-
 #bereichsmenu {
     .infotext {
         background: $main;
@@ -52,8 +46,8 @@ input[type="submit"] {
         color: $lighter;
     }
     li {
-        
-        span.aktiv:hover, span.aktiv:focus, span.aktiv:active, 
+
+        span.aktiv:hover, span.aktiv:focus, span.aktiv:active,
         a:hover, a:focus, a:active {
             background: $main;
         }
@@ -77,7 +71,7 @@ input[type="submit"] {
 @media screen and (min-width: 1024px) {
 
     header {
-        background-image: url($bg-header);
+        background-image: url("../img/bg-seite.png"), url($bg-header);
     }
     #titel {
         background: url($siegel) no-repeat scroll 95% 20%, rgba(0, 0, 0, 0) radial-gradient(ellipse at center center , $lighter 0%, $main 70%) repeat scroll 0 0;;

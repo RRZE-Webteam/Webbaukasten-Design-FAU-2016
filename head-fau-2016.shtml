@@ -1,14 +1,14 @@
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
 	<meta name="generator" content="Web-Baukasten der Friedrich-Alexander-Universit&auml;t (03/2013)">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="copyright" href="/impressum.shtml" title="Impressum">
-	<link rel="start" href="/" title="Startseite">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">	
+    <link rel="copyright" href="/impressum.shtml" title="Impressum">
+    <link rel="start" href="/" title="Startseite">	
 	<link rel="section" href="#content" media="handheld" title="Zum Inhalt">
 	<link rel="section" href="#menu" media="handheld" title="Zur Navigation">
 	<link rel="section" href="#seite" media="handheld" title="Zum Seitenanfang">
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-
-	<link href="/css/fau-2016/layout.css" type="text/css" rel="stylesheet" title="default">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    
+	<link href="/css/fau-2016/layout.css" type="text/css" rel="stylesheet" title="default"> 	
 	<link href="/css/tools.css" type="text/css" rel="stylesheet" title="default">
 	<!--[if lte IE 7]>
 		<link href="/css/d7/patches/patch.css" rel="stylesheet" type="text/css">

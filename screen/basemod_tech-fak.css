@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Projekt Vorlagenkatalog 
  *
@@ -27,15 +28,12 @@ input[type="submit"] {
     background: #3b4956; }
 
 #titel {
-  background: transparent radial-gradient(ellipse at center center, #969ea5 0%, #6e7881 100%) repeat scroll 0 0; }
+  background: rgba(0, 0, 0, 0) radial-gradient(ellipse at center center, #969ea5 0%, #6e7881 100%) repeat scroll 0 0; }
 
 #footer {
   background: #6e7881; }
 
 #inhaltsinfo h1, #inhaltsinfo h2, #inhaltsinfo h3, #inhaltsinfo h4, #inhaltsinfo h5, #inhaltsinfo h6, #footer #zusatzinfo h1, #footer #zusatzinfo h2, #footer #zusatzinfo h3, #footer #zusatzinfo h4, #footer #zusatzinfo h5, #footer #zusatzinfo h6 {
-  color: #3b4956; }
-
-#hauptmenu li a:hover, #hauptmenu li a:focus, #hauptmenu li a:active {
   color: #3b4956; }
 
 #bereichsmenu .infotext {
@@ -56,13 +54,13 @@ input[type="submit"] {
 
 @media screen and (min-width: 720px) {
   #titel {
-    background: url("../img/siegel-techfak.png") no-repeat scroll 95% 20%, transparent radial-gradient(ellipse at center center, #969ea5 0%, #6e7881 100%) repeat scroll 0 0; } }
+    background: url("../img/siegel-techfak.png") no-repeat scroll 95% 20%, rgba(0, 0, 0, 0) radial-gradient(ellipse at center center, #969ea5 0%, #6e7881 100%) repeat scroll 0 0; } }
 @media screen and (min-width: 1024px) {
   header {
-    background-image: url("../img/bg-header-tech.png"); }
+    background-image: url("../img/bg-seite.png"), url("../img/bg-header-tech.png"); }
 
   #titel {
-    background: url("../img/siegel-techfak.png") no-repeat scroll 95% 20%, transparent radial-gradient(ellipse at center center, #969ea5 0%, #6e7881 70%) repeat scroll 0 0; } }
+    background: url("../img/siegel-techfak.png") no-repeat scroll 95% 20%, rgba(0, 0, 0, 0) radial-gradient(ellipse at center center, #969ea5 0%, #6e7881 70%) repeat scroll 0 0; } }
 h1, h2, h3, h4, h5, h6 {
   color: #3b4956; }
 

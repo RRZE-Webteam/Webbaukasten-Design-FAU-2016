@@ -732,12 +732,13 @@ header {
     height: 38px;
     overflow: hidden; }
     #hauptmenu li a {
+      color: #003366;
       display: block;
       padding: 10px 0;
       text-decoration: none; }
       #hauptmenu li a:hover, #hauptmenu li a:focus, #hauptmenu li a:active {
         text-decoration: underline;
-        color: #003366; }
+        color: #1f4c7a; }
 
 .js #hauptmenu {
   display: none; }
@@ -805,7 +806,7 @@ hr#nachkopf, hr#vorfooter {
     #bereichsmenu #hauptnavigation li.on a {
       color: #fff; }
     #bereichsmenu #hauptnavigation li.on a.aktiv {
-      background: #003366;
+      background: #1f4c7a;
       color: #fff; }
     #bereichsmenu #hauptnavigation li.on span.aktiv {
       background: #1f4c7a; }
@@ -1108,7 +1109,7 @@ hr#nachkopf, hr#vorfooter {
       padding: 0 250px 0 10px; }
 
   #suche {
-    width: 100%;
+    width: 300px;
     background: transparent; }
     #suche p {
       float: right; }

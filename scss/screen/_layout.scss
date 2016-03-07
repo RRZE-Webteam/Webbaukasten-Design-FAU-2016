@@ -235,12 +235,13 @@ header {
 		height: 38px;
 		overflow: hidden;
         a {
+			color: $dark-blue;
             display: block;
             padding: 10px 0;
             text-decoration: none;
             &:hover, &:focus, &:active {
                 text-decoration: underline;
-                color: $dark-blue;
+                color: $hover;
             }
         }
     }
@@ -327,7 +328,7 @@ hr#nachkopf, hr#vorfooter {
 
             }
             a.aktiv {
-                background: $dark-blue;
+                background: $hover;
                 color: #fff;
             }
             span.aktiv {
