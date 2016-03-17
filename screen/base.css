@@ -881,8 +881,11 @@ hr#nachkopf, hr#vorfooter {
   margin-top: 10px;
   overflow: auto; }
 
+#inhaltsinfo + p {
+  margin-top: 10px; }
+
 .table-wrapper .scrollable {
-  overflow-x: scroll; }
+  overflow-x: auto; }
 
 #footer {
   clear: both;
@@ -891,7 +894,8 @@ hr#nachkopf, hr#vorfooter {
   padding: 0 10px;
   background: #003366;
   color: #fff;
-  padding: 20px 10px; }
+  padding: 20px 10px;
+  overflow: auto; }
   #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer a {
     color: #fff; }
   #footer #footermarke {

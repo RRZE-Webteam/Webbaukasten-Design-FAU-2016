@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /**
- * Projekt Vorlagenkatalog 
+ * Projekt Vorlagenkatalog
  *
- * Design "FAU 2016" – Erweiterung: Sidebar ausgeblendet 
+ * Design "FAU 2016" – Erweiterung: Sidebar ausgeblendet
  *
  * @copyright       Copyright RRZE-Webteam
  * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
@@ -11,5 +11,5 @@
  * @version         1.0
  * @lastmodified    02/2016
  */
-#sidebar {
+#sidebar, .js #sidebar {
   display: none; }
